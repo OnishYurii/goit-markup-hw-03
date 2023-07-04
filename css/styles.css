@@ -190,17 +190,24 @@ ul, ol {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
+    margin-bottom: 48px;
 }
 
 .solution-btn {
     color: var(--white-color);
     cursor: pointer;
     background-color: var(--primary-brand-color);
+    
 }
 
 .solution-btn:hover,
 .solution-btn:focus {
     background-color: var(--pressed-state-color);
+}
+
+.container-solution {
+    padding: 188px 330px 292px;
 }
 
 /* *-------Benefits------- */
