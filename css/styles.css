@@ -1,0 +1,207 @@
+:root {
+    --dark-color: #2E2F42;
+}
+
+:root {
+    --text-color: #434455;
+}
+
+:root {
+    --primary-brand-color: #4D5AE5;
+}
+
+:root {
+    --white-color: #FFFFFF;
+}
+
+:root {
+    --pressed-state-color: #404BBF;
+}
+
+:root {
+    --light-color: #F4F4FD;
+}
+
+:root {
+    --accent-color: #E7E9FC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--white-color);
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+.body-medium {
+    color: var(--dark-color); 
+    font-weight: 500; 
+    font-size: 16px ;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+
+.body-small {
+  font-size: 16px; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+}
+
+.button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
+}
+
+.header-three {
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.header-two {
+    color: var(--dark-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* *-----Header----- */
+.logo {
+    color:  var(--primary-brand-color);
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--dark-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--pressed-state-color);
+}
+
+.header-menu-item:hover,
+.header-menu-item:focus {
+    color: var(--pressed-state-color);
+}
+
+.head-address {
+    font-style: normal;
+}
+
+.head-address-link {
+    color: currentColor;
+}
+
+.head-address-link:hover,
+.head-address-link:focus {
+    color: var(--pressed-state-color);
+}
+
+/** ------Solution------ */
+.solution {
+    background-color: var(--dark-color);
+}
+
+.solution-title {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.solution-btn {
+    color: var(--white-color);
+    cursor: pointer;
+    background-color: var(--primary-brand-color);
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+    background-color: var(--pressed-state-color);
+}
+
+/* *-------Benefits------- */
+
+/* *------- Doing-------- */
+
+/* *--------Team----------- */
+.team {
+    background-color: var(--light-color);
+}
+.team-subtitle {
+    text-align: center;
+}
+
+.team-text {
+    text-align: center;
+}
+
+.team-list > li {
+    background-color: var(--white-color);
+}
+
+/* *---------Footer--------- */
+.footer {
+    background-color: var(--dark-color);
+
+}
+
+.footer-logo {
+    color: var(--primary-brand-color);
+}
+
+.footer-text {
+    color: var(--light-color);
+}
+
+.footer-logo-accent {
+    color: var(--light-color);
+}
+
+/* *--------Portfolio-------- */
+.btn-list > li > button {
+    color: var(--primary-brand-color);
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--light-color);   
+}
+
+.btn-list > li > button:hover,
+.btn-list > li > button:focus {
+    background-color: var(--pressed-state-color);
+    color: var(--white-color);
+}
+
+.img-text {
+    color: var(--text-color);
+}
+
+.img-link > p:hover,
+.img-link > p:focus {
+    color: var(--pressed-state-color);
+}
