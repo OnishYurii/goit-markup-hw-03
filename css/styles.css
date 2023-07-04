@@ -82,6 +82,38 @@ body {
     text-transform: capitalize;
 }
 
+p, h1, h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* *-----Header----- */
 .logo {
     color:  var(--primary-brand-color);
@@ -119,6 +151,32 @@ body {
 .head-address-link:focus {
     color: var(--pressed-state-color);
 }
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+.head-address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /** ------Solution------ */
 .solution {
