@@ -185,6 +185,8 @@ img {
 /** ------Solution------ */
 .solution {
     background-color: var(--dark-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .solution-title {
@@ -214,9 +216,6 @@ img {
     background-color: var(--pressed-state-color);
 }
 
-.container-solution {
-    padding: 188px 320px 292px;
-}
 
 /* *-------Benefits------- */
 .benefits {
