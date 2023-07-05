@@ -185,6 +185,11 @@ img {
     justify-content: space-between;
 }
 
+.header-menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 /** ------Solution------ */
 .solution {
     background-color: var(--dark-color);
