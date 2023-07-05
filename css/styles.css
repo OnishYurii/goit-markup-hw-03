@@ -164,11 +164,15 @@ img {
 .header-menu {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .head-address-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -180,12 +184,6 @@ img {
     display: flex;
     justify-content: space-between;
 }
-
-.header-menu-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 
 /** ------Solution------ */
 .solution {
