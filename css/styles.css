@@ -127,6 +127,7 @@ img {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
 }
 
 .logo-accent {
@@ -157,15 +158,12 @@ img {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid var(--accent-color);
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .head-address-list {
@@ -175,11 +173,17 @@ img {
 
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+}
+
+.header-menu-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -197,12 +201,13 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
 
 .solution-btn {
+    border: none;
     color: var(--white-color);
     cursor: pointer;
     background-color: var(--primary-brand-color);
@@ -210,6 +215,8 @@ img {
     border-radius: 4px;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+    min-height: 56px;
 }
 
 .solution-btn:hover,
@@ -265,13 +272,11 @@ img {
 }
 .team-subtitle {
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .team-text {
     text-align: center;
-    margin-bottom: 32px;
 }
 
 .team-list > li {
@@ -289,18 +294,21 @@ img {
     margin-bottom: 72px;
 }
 
+.team-list-container {
+    padding: 32px 16px;
+}
+
 /* *---------Footer--------- */
 .footer {
     background-color: var(--dark-color);
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 
 }
 
 .footer-logo {
     color: var(--primary-brand-color);
-    display: block;
-    margin-bottom: 17px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -324,6 +332,7 @@ img {
 .btn-list > li > button:focus {
     background-color: var(--pressed-state-color);
     color: var(--white-color);
+    border: 1px solid transparent;
 }
 
 .img-text {
@@ -370,4 +379,5 @@ img {
 .img-list-container {
     padding: 32px 16px;
     border: 1px solid var(--accent-color);
+    border-top: none;
 }
